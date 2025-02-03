@@ -17,6 +17,7 @@ isaacsim omni.isaac.sim
 3. Open the Carter Navigation Simulation
 ```bash
 Isaac Examples -> ROS2 -> Navigation -> Carter Navigation
+Hit the Play Icon which you find it in left menu bar 
 ```
 
 ### Running the code
