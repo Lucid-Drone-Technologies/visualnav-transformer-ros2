@@ -49,9 +49,14 @@ docker exec -i -t gnm /bin/bash
 
 4. Run the model:
 
-Inside the container, run the following commands:
+Activate the poetry shell on all the docker container before you execute the python script 
 ```bash
-poetry shell
+   poetry shell
+```
+
+Inside the container, run the following commands:
+
+```bash
 python src/visualnav_transformer/deployment/src/explore.py
 ```
 This will run the model and publish the predicted waypoints to a ROS2 topic, but your robot will not move yet. Next to running the model you have to run a script that will publish the movement commands to the robot.
