@@ -75,6 +75,8 @@ This code will publish the output image in a topic called "visualize_output"
 
 You can open rivz2 to visualize it. 
 
+In case you want to modify/tune the velocities of the robot, please check the `config/robot.yaml file`. To modify the ros2 topic name, check `src/visualnav_transformer/deployment/src/topic_names.py`
+
 ### Creating a topomap of the environment
 
 In order to navigate to a desired goal location, the robot needs to have a map of the environment. To create a topomap of the environment, you can run the following command:
