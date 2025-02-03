@@ -2,6 +2,23 @@
 
 This repository is a port of [visualnav-transformer](https://github.com/robodhruv/visualnav-transformer) to ROS2. Its purpose is to make running the models more straightforward by providing a Dockerfile with all dependencies set up. For more details on the models, please refer to the original repository.
 
+### Open Isaac Sim
+
+1. Activate conda environment
+```bash
+conda activate env_isaacsim
+```
+
+2. Open Isaac Sim. Takes 1-2 min. Ignore the Isaac Sim not responding window
+```bash
+isaacsim omni.isaac.sim
+```
+
+3. Open the Carter Navigation Simulation
+```bash
+Isaac Examples -> ROS2 -> Navigation -> Carter Navigation
+```
+
 ### Running the code
 
 1. Clone the repository:
