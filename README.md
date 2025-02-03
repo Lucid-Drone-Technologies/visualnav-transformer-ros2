@@ -6,11 +6,12 @@ This repository is a port of [visualnav-transformer](https://github.com/robodhru
 
 1. Clone the repository:
 ```bash
-pip3 install gdown 
+
 git clone https://github.com/RobotecAI/visualnav-transformer-ros2
 cd visualnav-transformer-ros2
 mkdir model_weights && cd model_weights
-gdown https://drive.google.com/uc?id=1YJhkkMJAYOiKNyCaelbS_alpUpAJsOUb -O /visualnav-transformer/model_weights/nomad.pth
+pip3 install gdown 
+gdown https://drive.google.com/uc?id=1YJhkkMJAYOiKNyCaelbS_alpUpAJsOUb -O nomad.pth
 ```
 
 2. Build the Docker image:
