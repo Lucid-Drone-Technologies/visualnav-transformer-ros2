@@ -51,7 +51,7 @@ docker exec -i -t gnm /bin/bash
 
 Activate the poetry shell on all the docker container before you execute the python script 
 ```bash
-   poetry shell
+poetry shell
 ```
 
 Inside the container, run the following commands:
