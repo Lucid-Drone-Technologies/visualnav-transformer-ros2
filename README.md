@@ -21,7 +21,7 @@ docker build -t visualnav_transformer:latest .
 
 3. Run the Docker container(Please replace the "/home/visualnav-transformer-ros2" with your folder path):
 ```bash
-docker run -it --rm --gpus=all -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --network=host --user root -v /home/visualnav-transformer-ros2:/visualnav-transformer visualnav_transformer:latest
+docker run -it --rm --gpus=all -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --network=host --user root -v /home/visualnav-transformer-ros2:/home/ubuntu/visualnav-transformer-ros2 visualnav_transformer:latest
 ```
 
 4. Run the model:
