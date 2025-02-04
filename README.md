@@ -11,7 +11,7 @@ conda activate env_isaacsim
 
 2. Open Isaac Sim. Takes 1-2 min. Ignore the Isaac Sim not responding window
 ```bash
-isaacsim omni.isaac.sim
+IsaacActivate
 ```
 
 3. Open the Carter Navigation Simulation
@@ -49,7 +49,7 @@ docker exec -i -t gnm /bin/bash
 
 4. Run the model:
 
-Activate the poetry shell on all the docker container before you execute the python script 
+Activate the poetry shell on all the docker container before you execute the python script(do this in every terminal where you have to run the python script)
 ```bash
 poetry shell
 ```
@@ -73,7 +73,11 @@ python scripts/visualize.py
 ```
 This code will publish the output image in a topic called "visualize_output"
 
-You can open rivz2 to visualize it. 
+You can open rivz2 to visualize it. Open an different terminal(no docker container is required)
+```bash
+shumble
+rviz2
+```
 
 In case you want to modify/tune the velocities of the robot, please check the `config/robot.yaml` file. To modify the ros2 topic name, check `src/visualnav_transformer/deployment/src/topic_names.py`
 
